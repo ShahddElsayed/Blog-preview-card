@@ -10,7 +10,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/ShahddElsayed/Blog-preview-card/blob/main/BlogCardPreviewSolution.jpeg)
 
 ### Links
 
