@@ -1,0 +1,94 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+
+  --font-family: "Figtree", sans-serif;
+  --font-size: 16px;
+  --font-weight-regular: 500;
+  --font-weight-bold: 800;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+.main-card {
+  background-color: var(--white);
+  border: 1px solid black;
+  box-shadow: 8px 8px 0 black;
+  border-color: black;
+  max-width: 350px;
+  border-radius: 20px;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: left;
+  font-family: var(--font-family);
+}
+
+.badge {
+  background-color: var(--yellow);
+  font-weight: var(--font-weight-bold);
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.publish-date {
+  color: var(--gray-950);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size);
+}
+.title {
+  font-weight: var(--font-weight-bold);
+  color: var(--gray-950);
+}
+.title:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+.desc {
+  color: var(--gray-500);
+}
+
+.author {
+  flex-direction: row;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.author-photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: var(--font-weight-bold);
+  color: var(--gray-950);
+}
